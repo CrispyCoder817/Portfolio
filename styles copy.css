@@ -1,0 +1,118 @@
+:root {
+    --Color01:#b74f35;
+    --Color02:#FFB81C;
+    --Color03:#FFE767;
+    --Color04:#F7F6F3;
+    --Color05:#0E345E;
+    --Type: helvetica, Arial, sans-serif;
+}
+* {
+    /* background-color: var(--Color04); */
+}
+.wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 0;
+    grid-row-end: 2;
+    background-color: var(--Color01);
+}
+.box2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 0;
+    grid-row-end: 2;
+    background-color: var(--Color05);
+}
+.box3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 75;
+    background-color: var(--Color02);
+}
+.box4 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 50;
+    background-image: url(KIDS1-03.png);
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 50;
+    grid-row-end: 75;
+    background-color: var(--Color01);
+}
+.box6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 50;
+    grid-row-end: 75;
+    background-color: var(--Color01);
+}
+.box7 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 75;
+    grid-row-end: 80;
+    background-color: var(--Color01);
+}
+
+h1 {
+    font-family: var(--Type);
+    background-color: var(--Color01);
+    padding: 10px;
+    margin: 0px;
+    justify-content: center;
+    text-align: right;
+}
+h2 {
+    font-family: var(--Type);
+
+    padding: 5px;
+    text-align: center;
+}
+h2:hover {
+    background-color: var(--Color05);
+    color: var(--Color04)
+}
+
+.abt {
+    color:var(--Color01);
+    grid-row-start: 100;
+    grid-row-end: 250;
+}
+
+ul { 
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline-start: 0px;
+    color:whitesmoke;
+    
+}
+
+#abt {
+    align-content: flex-start;
+    align-content:space-between;
+
+
+}
+#pro {
+
+}
+
+#con {
+
+}

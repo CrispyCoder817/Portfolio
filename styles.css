@@ -8,27 +8,24 @@
 }
 
 * {
-    display:block;
-    width: auto;
-    height: auto;
     font-family: var(--Type);
 }
 
 header {
     list-style:inside;
     list-style-position: inside;
-    font-size: 10px;
+    font-size: 19px;
     float: left;
     padding: 5px;
 }
 
 section {
-    position:relative;
+    display: grid;
+    grid-template-columns: (20px, 20px, 20px);
+    grid-template-rows: 100px;
+    justify-content: end;
     padding: 5px;
-    border-radius: 5px;
     background-color: var(--Color03);
-    display: right;
-    grid-template-columns: auto;
     color:var(--Color01);
     font-size: 15px;
 }
@@ -60,6 +57,9 @@ p {
 }
 
 body {
+    display:grid;
+    grid-template-columns: (2, 1fr);
+    grid-gap: 1em;
     padding: 10px;
     margin: 50px;
     font-family: var(--Type);
@@ -91,7 +91,3 @@ background-color:var(--Color05);
     scroll-behavior: smooth;
 <a href="#About Me">Click here to see the content below. </a>
 }
-/*  body { 
-    grid-column: auto;
-    grid-area: auto;
-} */
