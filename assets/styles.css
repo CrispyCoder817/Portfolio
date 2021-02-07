@@ -46,7 +46,7 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 20;
-    background-image: url(PortPic.JPG);
+    background-image: url(PortPic.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     
@@ -73,7 +73,6 @@
 }
 /* 6-8 are sub projects */
 .box6 {
-
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 50;
@@ -156,15 +155,11 @@ ul {
     grid-row-end: 250;
 }
 
-#abt {
-    
-}
 #pro {
 grid-row-start: 26;
 grid-row-end: 50;
 color: var(--Color04)
 }
-
 #con {
     color: var(--Color04);
     padding-top: 1px;
