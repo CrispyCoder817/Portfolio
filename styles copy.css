@@ -7,15 +7,22 @@
     --Type: helvetica, Arial, sans-serif;
 }
 * {
+    size:auto;
+    scroll-behavior: smooth;
+    font-style: var(--Type);
     /* background-color: var(--Color04); */
 }
+/* initialized grid sets */
 .wrapper {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px;
+    grid-template-rows: 100;
     column-gap: 1em;
     row-gap: 1em;
+    min-width: 1fr;
+    max-width: 4fr;
 }
+/* Name of Portfolio */
 .box1 {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -23,50 +30,88 @@
     grid-row-end: 2;
     background-color: var(--Color01);
 }
+/* About Me Project Contact */
 .box2 {
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 0;
     grid-row-end: 2;
-    background-color: var(--Color05);
+    background-color: var(--Color04);
+    font-family: var(--Type);
+    color:var(--Color01)
 }
+/* RECENT PHOTO */
 .box3 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
-    grid-row-end: 75;
-    background-color: var(--Color02);
+    grid-row-end: 20;
+    background-image: url(PortPic.JPG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 }
+/* Starter Project Placeholder */
 .box4 {
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 50;
-    background-image: url(KIDS1-03.png);
-    background-size: 125%;
+    background-image: url(Never_Stop_The_Hustle\ 02.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
+/* About Me Section */
 .box5 {
+    position:relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 20;
+    grid-row-end: 66;
+    background-color: var(--Color01);
+}
+/* 6-8 are sub projects */
+.box6 {
+
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 50;
-    grid-row-end: 75;
+    grid-row-end: 66;
     background-color: var(--Color01);
-}
-.box6 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 50;
-    grid-row-end: 75;
-    background-color: var(--Color01);
+    background-image: url(KIDS1-01.png);
+    background-size: 100%;
+    background-repeat: none;
+    background-position: center;
 }
 .box7 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 50;
+    grid-row-end: 66;
+    background-color: var(--Color01);
+    background-image: url(KIDS1-02.png);
+    background-size: 100%;
+    background-repeat: none;
+}
+.box8 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 50;
+    grid-row-end: 66;
+    background-color: var(--Color01);
+    background-image: url(KIDS1-03.png);
+    background-size: 100%;
+    background-repeat: none;
+    background-position: center;
+}
+/* Contact Info */
+.box9 {
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 75;
-    grid-row-end: 80;
-    background-color: var(--Color01);
+    grid-row-start:66;
+    grid-row-end:67;
+    background-color: var(--Color02);
 }
 
 h1 {
@@ -79,7 +124,6 @@ h1 {
 }
 h2 {
     font-family: var(--Type);
-
     padding: 5px;
     text-align: center;
 }
@@ -88,31 +132,43 @@ h2:hover {
     color: var(--Color04)
 }
 
+p {
+    font-family: var(--Type);
+    padding: 5px;
+    margin: 5px;
+}
+
+
+ul { 
+    font-family:var(--Type);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    padding-inline-start: 0px;
+    color:whitesmoke;
+    
+}
+
 .abt {
     color:var(--Color01);
     grid-row-start: 100;
     grid-row-end: 250;
 }
 
-ul { 
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding-inline-start: 0px;
-    color:whitesmoke;
+#abt {
     
 }
-
-#abt {
-    align-content: flex-start;
-    align-content:space-between;
-
-
-}
 #pro {
-
+grid-row-start: 26;
+grid-row-end: 50;
+color: var(--Color04)
 }
 
 #con {
-
+    color: var(--Color04);
+    padding-top: 1px;
+    display:flex;
+    justify-content: flex-start;
+    align-content: center;
 }
