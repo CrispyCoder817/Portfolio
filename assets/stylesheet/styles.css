@@ -12,10 +12,21 @@
     font-style: var(--Type);
     /* background-color: var(--Color04); */
 }
+
+.float-left {
+    float: left;
+    margin-right: 16px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 16px;
+}
+
 /* initialized grid sets */
 .wrapper {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-template-rows: 100;
     column-gap: 1em;
     row-gap: 1em;
@@ -46,8 +57,10 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 20;
+    background-image: url("../images/PortPic.JPG");
     background-repeat: no-repeat;
     background-size: 100%;
+    display:block;
 }
 /* Starter Project Placeholder */
 .box4 {
@@ -55,10 +68,11 @@
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 50;
-    background-image: url(Never_Stop_The_Hustle\ 02.jpg);
+    background-image: url("../images/TOPOGRAPHICAL_HUGE.svg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    display:block;
 }
 /* About Me Section */
 .box5 {
@@ -76,7 +90,7 @@
     grid-row-start: 50;
     grid-row-end: 66;
     background-color: var(--Color01);
-    background-image: url(KIDS1-01.png);
+    background-image: url("../PLACEHOLDER/KIDS1-01.png");
     background-size: 100%;
     background-repeat: none;
     background-position: center;
@@ -87,7 +101,7 @@
     grid-row-start: 50;
     grid-row-end: 66;
     background-color: var(--Color01);
-    background-image: url(KIDS1-02.png);
+    background-image: url("../PLACEHOLDER/KIDS1-02.png");
     background-size: 100%;
     background-repeat: none;
 }
@@ -97,7 +111,7 @@
     grid-row-start: 50;
     grid-row-end: 66;
     background-color: var(--Color01);
-    background-image: url(KIDS1-03.png);
+    background-image: url("../PLACEHOLDER/KIDS1-03.png");
     background-size: 100%;
     background-repeat: none;
     background-position: center;
