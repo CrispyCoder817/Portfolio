@@ -22,7 +22,10 @@
     float: right;
     margin-left: 16px;
 }
- 
+
+body {
+    background-color: #0E345E;
+}
 
 /* initialized grid sets */
 .wrapper {
@@ -155,12 +158,19 @@ ul {
     font-family:var(--Type);
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
-    align-content: stretch;
-    padding-inline-start: 0px;
+    justify-content: center;
+    align-content: center;
+    padding-inline-start: 10px;
     color:whitesmoke;
+
+
     
 }
+
+li {
+    padding: 1rem;
+}
+
 
 .abt {
     color:var(--Color01);
@@ -174,9 +184,12 @@ grid-row-end: 50;
 color: var(--Color04)
 }
 #con {
+    text-align: center;
     color: var(--Color04);
     padding-top: 1px;
-    display:flex;
-    justify-content: flex-start;
-    align-content: center;
+}
+#conlinks {
+    margin: 1rem;
+    padding: 2rem;
+    word-spacing: 3em;
 }
