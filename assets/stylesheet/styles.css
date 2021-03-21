@@ -139,7 +139,7 @@ h1 {
 }
 h2 {
     font-family: var(--Type);
-    padding: 5px;
+    padding: 1px;
     text-align: center;
 }
 h2:hover {
@@ -192,4 +192,8 @@ color: var(--Color04)
     margin: 1rem;
     padding: 2rem;
     word-spacing: 3em;
+}
+
+a {
+    text-align: center;
 }
