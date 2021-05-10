@@ -1,0 +1,10 @@
+.groups{
+    width: 72%;
+    display: flex;
+    background-color: var(--color02);
+    display: inline-block;
+}
+
+.projectOne {
+    background-color: blueviolet;
+}

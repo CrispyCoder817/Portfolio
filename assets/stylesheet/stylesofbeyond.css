@@ -6,10 +6,14 @@
 }
 * {
     font-family: Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1%;
+    /* margin-right: 1%; */
 }
  
 a {
-    color: #e5DeD6;
+    color: rgb(69, 69, 69);
 }
 a:link {
     text-decoration: none;
@@ -26,5 +30,16 @@ body {
 Header {
     text-align: center;
     background-color: #AA9377;
+    border-radius: 10px;
 }
 
+aside {
+    background-color: #AA9377;
+    padding: 1fr;
+}
+aside p {
+    color: var(--color04);
+    display: flex;
+    justify-content: center;
+    color: rgb(69, 69, 69);
+}
