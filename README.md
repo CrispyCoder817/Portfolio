@@ -12,4 +12,4 @@ Project displays
 Visit: https://crispycoder817.github.io/Portfolio/
 
 ##Screenshots
-![homepagescreenshot](Portfolio/assets/homepagescreenshot) 
+![homepagescreenshot](../assets/images/bgmportmobilefirst.png) 
