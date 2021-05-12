@@ -1,10 +1,25 @@
-.groups{
-    width: 72%;
-    display: flex;
-    background-color: var(--color02);
-    display: inline-block;
+:root {
+    --color01: #6A414A;
+    --color02: #AA9377;
+    --color03: #f7f6EE;
+    --color04: #e5DeD6;
 }
 
-.projectOne {
-    background-color: blueviolet;
+.groups{
+    width: 72%;
+    background-color: var(--color02);;
+}
+
+.linkCard {
+    width:25%;
+    height:10%;
+    background-color: var(--color02);
+    text-align: center;
+}
+
+.projectTwo {
+    width:25%;
+    height:10%;
+    background-color: var(--color02);
+    text-align: center;
 }
