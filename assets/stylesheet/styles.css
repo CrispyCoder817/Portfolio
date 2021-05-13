@@ -43,8 +43,35 @@ li {
 }
 
 .linkCard {
-    width:25%;
-    height:10%;
     background-color: var(--color02);
     text-align: center;
 }
+
+@media screen and (max-width: 1000px){
+    body {
+        margin-top: 40px;
+    }
+    a {
+        color: var(--color03);
+    }
+    .linkCard {
+        background-color: var(--color01);
+        color: var(--color02);
+    }
+    header {
+        background-color: var(--color01);
+    }   
+}
+
+/* Future Dev */
+/* @media screen and (max-width: 800px) {
+    body {
+        margin-top: 40px;
+    }
+    a {
+        color: aquamarine;
+    }
+    .linkCard {
+        background-color: blue;
+    }
+} */

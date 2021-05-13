@@ -12,4 +12,6 @@ Project displays
 Visit: https://crispycoder817.github.io/Portfolio/
 
 ##Screenshots
-![homepagescreenshot] (./assets/images/bgmportmobilefirst.png) 
+![homepagescreenshotRegular](bgmportregular.png)
+![homepagescreenshotMobile](bgmportmobilefirst.png) 
+
